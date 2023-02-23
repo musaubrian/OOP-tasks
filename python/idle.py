@@ -1,5 +1,6 @@
 import tkinter as tk
 from tkinter import ttk
+from tkinter import scrolledtext
 
 win = tk.Tk()
 win.title('python GUI')
@@ -51,4 +52,22 @@ check_3 = tk.Checkbutton(win, text="Enabled", variable=ch_var_en)
 check_3.select()
 check_3.grid(column=2, row=4, sticky=tk.W)
 
+# radio buttons
+COLOR_1="Blue"
+COLOR_2="Gold"
+COLOR_3="Red"
+
+def radio_btn_call():
+    radio_selected = rad_var.get()
+    if radio_selected == 1:
+        win.configure(background=COLOR_1)
+    elif radio_selected == 2:
+        win.configure(background=COLOR_2)
+    elif radio_selected == 3:
+        win.configure(background=COLOR_3)
+
+rad_var = tk.IntVar()
+radio_1= tk.Radiobutton(win, text=COLOR_1, variable=rad_var, value=1)
+            
+    
 win.mainloop()
