@@ -53,7 +53,7 @@ questions = [
     },
     {
         "question": "What is the highest waterfall in the world?",
-        "choices": ["Victoria Falls", "Niagara Falls", "Angel Falls", "Iguazu Falls"],
+        "choices": ["Victoria Falls", "Niagara Falls", "Angel Falls"],
         "answer": "Angel Falls",
         "mark": 1,
     },
@@ -94,8 +94,9 @@ def check_answers():
     for widget in quiz_frame.winfo_children():
         widget.destroy()
     # display the final score
-    score_label = tk.Label(quiz_frame, text=f"Final Score: {score}/{len(questions)}")
-    score_label.pack(pady=10, padx=5)
+    score_label = tk.Label(quiz_frame,
+                           text=f"Final Score: {score}/{len(questions)}")
+    score_label.pack(pady=10, padx=6)
 
 
 # create a function to display the quiz questions
@@ -126,9 +127,11 @@ def display_question():
 
     # create a button to go to the next question or check the user's answers
     if current_question == len(questions) - 1:
-        next_button = tk.Button(quiz_frame, text="Check Answers", command=check_answers)
+        next_button = tk.Button(quiz_frame, text="Check Answers",
+                                command=check_answers)
     else:
-        next_button = tk.Button(quiz_frame, text="Next Question", command=next_question)
+        next_button = tk.Button(quiz_frame, text="Next Question",
+                                command=next_question)
     next_button.pack(pady=10)
 
 
