@@ -6,6 +6,10 @@
 
  - [Multiplication](./java/Multiplication.java)
 
+ - [EvenOdd](./java/EvenOdd.java)
+
+ - [Ascending Descending order](./java/AscendingAndDescending.java)
+ 
 ### python
  - [MCQ](./python/mcq.py)
 
