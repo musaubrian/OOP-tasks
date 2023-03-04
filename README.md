@@ -20,6 +20,9 @@
 
  - [AceMePay](./java/AcmePay.java)
 
+ - [JobApplicant constructor](./java/JobApplicant.java)
+ - [JobApplicant Qualification](./java/TestJobApplicants.java)
+
 
 ### python
  - [MCQ](./python/mcq.py)
