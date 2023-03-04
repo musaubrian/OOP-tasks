@@ -25,6 +25,9 @@
 
  - [Automobile cosntructor](./java/Automobile.java)
 
+ - [Apartment constructor](./java/Apartment.java)
+ - [Apartment finder](./java/TestApartments.java)
+
 
 ### python
  - [MCQ](./python/mcq.py)
