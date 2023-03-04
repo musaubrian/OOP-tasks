@@ -9,7 +9,12 @@
  - [EvenOdd](./java/EvenOdd.java)
 
  - [Ascending Descending order](./java/AscendingAndDescending.java)
+
+ - [ShadyRestRoom](./java/ShadyRestRoom.java)
+
+ - [ShadyRestRoom1](./java/ShadyRestRoom2.java)
  
+
 ### python
  - [MCQ](./python/mcq.py)
 
