@@ -1,10 +1,10 @@
-import java.util.Scanner;
 import java.util.Arrays;
+import java.util.Scanner;
 
-public class AscendingAndDescending{
+public class AscendingAndDescending {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int []numbers = new int[3];
+        int[] numbers = new int[3];
 
         // Get the three numbers
         System.out.println("First number: ");
@@ -28,4 +28,3 @@ public class AscendingAndDescending{
         scanner.close();
     }
 }
-
