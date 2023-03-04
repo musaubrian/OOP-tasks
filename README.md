@@ -23,6 +23,8 @@
  - [JobApplicant constructor](./java/JobApplicant.java)
  - [JobApplicant Qualification](./java/TestJobApplicants.java)
 
+ - [Automobile cosntructor](./java/Automobile.java)
+
 
 ### python
  - [MCQ](./python/mcq.py)
