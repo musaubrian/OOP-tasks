@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class ShadyRestRoom2 {
     public static void main(String[] args) {
-        int choice, view;
+        int choice;
         Scanner sc = new Scanner(System.in);
         System.out.println("""
                 \n1 for a queen bed, 2 for a king, or 3 for a king and a pullout couch.\n""");
@@ -20,7 +20,12 @@ public class ShadyRestRoom2 {
             System.out.println("Exiting...");
             System.exit(0);
         }
+        viewOption(sc, choice);
+        sc.close();
+    }
 
+    public static void viewOption(Scanner sc, int choice) {
+        int view;
         System.out.println("\nSelect a view option:\n1 for lake view\n2 for park view");
         view = sc.nextInt();
         if (view == 1) {
@@ -46,7 +51,5 @@ public class ShadyRestRoom2 {
         } else {
             System.out.println("Invalid view option");
         }
-
-        sc.close();
     }
 }
