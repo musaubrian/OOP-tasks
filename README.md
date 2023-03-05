@@ -28,6 +28,7 @@
  - [Apartment constructor](./java/Apartment.java)
  - [Apartment finder](./java/TestApartments.java)
 
+ - [Count by fives](./java/CountByFives.java)
 
 ### python
  - [MCQ](./python/mcq.py)
