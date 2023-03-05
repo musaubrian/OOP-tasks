@@ -32,6 +32,8 @@
 
 - [Count by fives](./java/CountByFives.java)
 
+- [Count by anything](./java/CountByAnything.java)
+
 ### python
 
 - [MCQ](./python/mcq.py)
