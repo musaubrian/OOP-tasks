@@ -89,4 +89,13 @@ scrollW = 30
 scrollH = 3
 scr = scrolledtext.ScrolledText(win, width=scrollW, height=scrollH, wrap=tk.WORD)
 scr.grid(column=0, columnspan=3)
+
+# labels in a frame
+labels_frame = ttk.LabelFrame(win, text="Labels in a frame")
+labels_frame.grid(column=0, row=7, padx=20, pady=40)
+
+ttk.Label(labels_frame, text="label one").grid(column=0, row=0)
+ttk.Label(labels_frame, text="label 2").grid(column=0, row=1)
+ttk.Label(labels_frame, text="label 3").grid(column=0, row=2)
+
 win.mainloop()

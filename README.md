@@ -1,36 +1,39 @@
 # OOP-tasks
+
 > contains assignments from my OOP class
 
 ### Java
- - [Matrix Manipulation](./java/MatrixManipulation.java)
 
- - [Multiplication](./java/Multiplication.java)
+- [Matrix Manipulation](./java/MatrixManipulation.java)
 
- - [EvenOdd](./java/EvenOdd.java)
+- [Multiplication](./java/Multiplication.java)
 
- - [Ascending Descending order](./java/AscendingAndDescending.java)
+- [EvenOdd](./java/EvenOdd.java)
 
- - [ShadyRestRoom](./java/ShadyRestRoom.java)
+- [Ascending Descending order](./java/AscendingAndDescending.java)
 
- - [ShadyRestRoom1](./java/ShadyRestRoom2.java)
+- [ShadyRestRoom](./java/ShadyRestRoom.java)
 
- - [Horizons](./java/CellPhoneService.java)
+- [ShadyRestRoom1](./java/ShadyRestRoom2.java)
 
- - [PastPresentFuture](./java/PastPresentFuture.java)
+- [Horizons](./java/CellPhoneService.java)
 
- - [AceMePay](./java/AcmePay.java)
+- [PastPresentFuture](./java/PastPresentFuture.java)
 
- - [JobApplicant constructor](./java/JobApplicant.java)
- - [JobApplicant Qualification](./java/TestJobApplicants.java)
+- [AceMePay](./java/AcmePay.java)
 
- - [Automobile cosntructor](./java/Automobile.java)
+- [JobApplicant constructor](./java/JobApplicant.java)
+- [JobApplicant Qualification](./java/TestJobApplicants.java)
 
- - [Apartment constructor](./java/Apartment.java)
- - [Apartment finder](./java/TestApartments.java)
+- [Automobile cosntructor](./java/Automobile.java)
 
- - [Count by fives](./java/CountByFives.java)
+- [Apartment constructor](./java/Apartment.java)
+- [Apartment finder](./java/TestApartments.java)
+
+- [Count by fives](./java/CountByFives.java)
 
 ### python
- - [MCQ](./python/mcq.py)
 
- - [Text Editor](https://github.com/musaubrian/text-editor)
+- [MCQ](./python/mcq.py)
+
+- [Text Editor](https://github.com/musaubrian/text-editor)
