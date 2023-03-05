@@ -40,6 +40,8 @@
 
 - [InBetween](./java/Inbetween.java)
 
+- [Retirement Goals](./java/RetirementGoal.java)
+
 ### python
 
 - [MCQ](./python/mcq.py)
