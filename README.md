@@ -34,6 +34,10 @@
 
 - [Count by anything](./java/CountByAnything.java)
 
+- [Leavable loop](./java/EvenEntryLoop.java)
+
+- [Factorials](./java/Factorials.java)
+
 ### python
 
 - [MCQ](./python/mcq.py)
