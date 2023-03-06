@@ -30,6 +30,8 @@
 - [Apartment constructor](./java/Apartment.java)
 - [Apartment finder](./java/TestApartments.java)
 
+#### Loops
+
 - [Count by fives](./java/CountByFives.java)
 
 - [Count by anything](./java/CountByAnything.java)
