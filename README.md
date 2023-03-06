@@ -57,6 +57,8 @@
 - [Patient](./java/Patient.java)
 - [Patient Tester](./java/TestPatient.java)
 
+- [Math](./java/MathTest.java)
+
 ### python
 
 - [MCQ](./python/mcq.py)
