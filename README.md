@@ -46,10 +46,13 @@
 
 #### Methods
 
-- [Overloaded methdods](./java/FormLetterWriter.java)
+- [Form letter](./java/FormLetterWriter.java)
 
 - [Fitness Tracker](./java/FitnessTracker.java)
 - [Test Fitness Tracker](./java/TestFitnessTracker.java)
+
+- [BloodTypeData](./java/BloodData.java)
+- [BloodTypeData Test](./java/TestBloodData.java)
 
 ### python
 
