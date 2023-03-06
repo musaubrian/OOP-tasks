@@ -48,6 +48,9 @@
 
 - [Overloaded methdods](./java/FormLetterWriter.java)
 
+- [Fitness Tracker](./java/FitnessTracker.java)
+- [Test Fitness Tracker](./java/TestFitnessTracker.java)
+
 ### python
 
 - [MCQ](./python/mcq.py)
