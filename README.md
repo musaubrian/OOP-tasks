@@ -61,6 +61,8 @@
 
 - [Ten Thousand days old](./java/TenThousandDaysOld.java)
 
+- [Days till next month](./java/DaysTilNextMonth.java)
+
 ### python
 
 - [MCQ](./python/mcq.py)
