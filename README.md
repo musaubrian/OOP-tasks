@@ -54,6 +54,9 @@
 - [BloodTypeData](./java/BloodData.java)
 - [BloodTypeData Test](./java/TestBloodData.java)
 
+- [Patient](./java/Patient.java)
+- [Patient Tester](./java/TestPatient.java)
+
 ### python
 
 - [MCQ](./python/mcq.py)
