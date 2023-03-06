@@ -63,6 +63,11 @@
 
 - [Days till next month](./java/DaysTilNextMonth.java)
 
+- [Person class](./java/Person.java)
+- [Couple](./java/Couple.java)
+- [Wedding](./java/Wedding.java)
+- [Wedding Test](./java/TestWedding.java)
+
 ### python
 
 - [MCQ](./python/mcq.py)
