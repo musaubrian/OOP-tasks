@@ -59,6 +59,8 @@
 
 - [Math](./java/MathTest.java)
 
+- [Ten Thousand days old](./java/TenThousandDaysOld.java)
+
 ### python
 
 - [MCQ](./python/mcq.py)
