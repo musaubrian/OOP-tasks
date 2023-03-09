@@ -73,3 +73,11 @@
 - [MCQ](./python/mcq.py)
 
 - [Text Editor](https://github.com/musaubrian/text-editor)
+
+- [Graph](./python/graph.py)
+
+- [Histogram](./python/bar_chart.py)
+
+- [Scatter plot](./python/scatter_plot.py)
+
+- [3D?](./python/surface_3d.py)
