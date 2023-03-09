@@ -38,7 +38,8 @@ action.grid(column=2, row=1)
 ch_var_dis = tk.IntVar()
 
 # disabled check button
-check_1 = tk.Checkbutton(win, text="Disabled", variable=ch_var_dis, state="disabled")
+check_1 = tk.Checkbutton(win, text="Disabled",
+                         variable=ch_var_dis, state="disabled")
 check_1.select()
 check_1.grid(column=0, row=4, sticky=tk.W)
 
@@ -87,7 +88,8 @@ radio_3.grid(column=2, row=5, sticky=tk.W)
 # Using scrolled text
 scrollW = 30
 scrollH = 3
-scr = scrolledtext.ScrolledText(win, width=scrollW, height=scrollH, wrap=tk.WORD)
+scr = scrolledtext.ScrolledText(
+    win, width=scrollW, height=scrollH, wrap=tk.WORD)
 scr.grid(column=0, columnspan=3)
 
 # labels in a frame

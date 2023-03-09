@@ -9,66 +9,66 @@ root.title("Quiz App")
 
 # create a list of questions with their answer choices and correct answers
 questions = [
-        {
-            "question": "What is the capital of France?",
-            "choices": ["London", "Paris", "Berlin", "Rome"],
-            "answer": "Paris",
-            "mark": 1
-            },
-        {
-            "question": "What is the highest mountain in the world?",
-            "choices": ["Everest", "K2", "Kilimanjaro", "Denali"],
-            "answer": "Everest",
-            "mark": 1
-            },
-        {
-            "question": "What is the largest country in the world?",
-            "choices": ["Russia", "Canada", "China", "USA"],
-            "answer": "Russia",
-            "mark": 1
-            },
-        {
-            "question": "What is the smallest continent in the world?",
-            "choices": ["Africa", "Australia", "South America", "Europe"],
-            "answer": "Australia",
-            "mark": 1
-            },
-        {
-            "question": "What is the currency of Japan?",
-            "choices": ["Yen", "Dollar", "Euro", "Pound"],
-            "answer": "Yen",
-            "mark": 1
-            },
-        {
-            "question": "What is the largest ocean in the world?",
-            "choices": ["Atlantic", "Indian", "Arctic", "Pacific"],
-            "answer": "Pacific",
-            "mark": 1
-            },
-        {
-            "question": "What is the national language of Brazil?",
-            "choices": ["Spanish", "Portuguese", "Italian", "French"],
-            "answer": "Portuguese",
-            "mark": 1
-            },
-        {
-            "question": "What is the highest waterfall in the world?",
-            "choices": ["Victoria Falls", "Niagara Falls", "Angel Falls"],
-            "answer": "Angel Falls",
-            "mark": 1
-            },
-        {
-            "question": "What is the capital of South Africa?",
-            "choices": ["Johannesburg", "Cape Town", "Pretoria", "Durban"],
-            "answer": "Pretoria",
-            "mark": 1
-            },
     {
-            "question": "What is the largest desert in the world?",
-            "choices": ["Gobi", "Sahara", "Kalahari", "Mojave"],
-            "answer": "Sahara",
-            "mark": 1
-            }
+        "question": "What is the capital of France?",
+        "choices": ["London", "Paris", "Berlin", "Rome"],
+        "answer": "Paris",
+        "mark": 1
+    },
+    {
+        "question": "What is the highest mountain in the world?",
+        "choices": ["Everest", "K2", "Kilimanjaro", "Denali"],
+        "answer": "Everest",
+        "mark": 1
+    },
+    {
+        "question": "What is the largest country in the world?",
+        "choices": ["Russia", "Canada", "China", "USA"],
+        "answer": "Russia",
+        "mark": 1
+    },
+    {
+        "question": "What is the smallest continent in the world?",
+        "choices": ["Africa", "Australia", "South America", "Europe"],
+        "answer": "Australia",
+        "mark": 1
+    },
+    {
+        "question": "What is the currency of Japan?",
+        "choices": ["Yen", "Dollar", "Euro", "Pound"],
+        "answer": "Yen",
+        "mark": 1
+    },
+    {
+        "question": "What is the largest ocean in the world?",
+        "choices": ["Atlantic", "Indian", "Arctic", "Pacific"],
+        "answer": "Pacific",
+        "mark": 1
+    },
+    {
+        "question": "What is the national language of Brazil?",
+        "choices": ["Spanish", "Portuguese", "Italian", "French"],
+        "answer": "Portuguese",
+        "mark": 1
+    },
+    {
+        "question": "What is the highest waterfall in the world?",
+        "choices": ["Victoria Falls", "Niagara Falls", "Angel Falls"],
+        "answer": "Angel Falls",
+        "mark": 1
+    },
+    {
+        "question": "What is the capital of South Africa?",
+        "choices": ["Johannesburg", "Cape Town", "Pretoria", "Durban"],
+        "answer": "Pretoria",
+        "mark": 1
+    },
+    {
+        "question": "What is the largest desert in the world?",
+        "choices": ["Gobi", "Sahara", "Kalahari", "Mojave"],
+        "answer": "Sahara",
+        "mark": 1
+    }
 ]
 # create variables to keep track of the user's answers and score
 current_question = 0
