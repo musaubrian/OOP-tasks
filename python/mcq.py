@@ -13,62 +13,62 @@ questions = [
         "question": "What is the capital of France?",
         "choices": ["London", "Paris", "Berlin", "Rome"],
         "answer": "Paris",
-        "mark": 1
+        "mark": 1,
     },
     {
         "question": "What is the highest mountain in the world?",
         "choices": ["Everest", "K2", "Kilimanjaro", "Denali"],
         "answer": "Everest",
-        "mark": 1
+        "mark": 1,
     },
     {
         "question": "What is the largest country in the world?",
         "choices": ["Russia", "Canada", "China", "USA"],
         "answer": "Russia",
-        "mark": 1
+        "mark": 1,
     },
     {
         "question": "What is the smallest continent in the world?",
         "choices": ["Africa", "Australia", "South America", "Europe"],
         "answer": "Australia",
-        "mark": 1
+        "mark": 1,
     },
     {
         "question": "What is the currency of Japan?",
         "choices": ["Yen", "Dollar", "Euro", "Pound"],
         "answer": "Yen",
-        "mark": 1
+        "mark": 1,
     },
     {
         "question": "What is the largest ocean in the world?",
         "choices": ["Atlantic", "Indian", "Arctic", "Pacific"],
         "answer": "Pacific",
-        "mark": 1
+        "mark": 1,
     },
     {
         "question": "What is the national language of Brazil?",
         "choices": ["Spanish", "Portuguese", "Italian", "French"],
         "answer": "Portuguese",
-        "mark": 1
+        "mark": 1,
     },
     {
         "question": "What is the highest waterfall in the world?",
         "choices": ["Victoria Falls", "Niagara Falls", "Angel Falls"],
         "answer": "Angel Falls",
-        "mark": 1
+        "mark": 1,
     },
     {
         "question": "What is the capital of South Africa?",
         "choices": ["Johannesburg", "Cape Town", "Pretoria", "Durban"],
         "answer": "Pretoria",
-        "mark": 1
+        "mark": 1,
     },
     {
         "question": "What is the largest desert in the world?",
         "choices": ["Gobi", "Sahara", "Kalahari", "Mojave"],
         "answer": "Sahara",
-        "mark": 1
-    }
+        "mark": 1,
+    },
 ]
 # create variables to keep track of the user's answers and score
 current_question = 0
@@ -93,8 +93,7 @@ def check_answers():
     for widget in quiz_frame.winfo_children():
         widget.destroy()
     # display the final score
-    score_label = tk.Label(quiz_frame,
-                           text=f"Final Score: {score}/{len(questions)}")
+    score_label = tk.Label(quiz_frame, text=f"Final Score: {score}/{len(questions)}")
     score_label.pack(pady=10, padx=6)
 
 
@@ -126,11 +125,9 @@ def display_question():
 
     # create a button to go to the next question or check the user's answers
     if current_question == len(questions) - 1:
-        next_button = tk.Button(quiz_frame, text="Check Answers",
-                                command=check_answers)
+        next_button = tk.Button(quiz_frame, text="Check Answers", command=check_answers)
     else:
-        next_button = tk.Button(quiz_frame, text="Next Question",
-                                command=next_question)
+        next_button = tk.Button(quiz_frame, text="Next Question", command=next_question)
     next_button.pack(pady=10)
 
 
